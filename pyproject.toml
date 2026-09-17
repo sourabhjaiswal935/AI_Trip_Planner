@@ -7,7 +7,10 @@ authors = [
     { name = "sourabhjaiswal935", email = "sourabhjaiswal3005@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "python-dotenv>=1.2.3",
+]
 
 [project.scripts]
 ai-trip-planner = "ai_trip_planner:main"
